@@ -1,5 +1,5 @@
-CREATE TABLE IF NOT EXISTS greetings(
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    language TEXT,
-    greeting TEXT
+create table if not exists greetings(
+    id integer PRIMARY KEY AUTOINCREMENT,
+    language text,
+    greeting text
 );
