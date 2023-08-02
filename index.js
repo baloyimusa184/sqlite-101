@@ -27,7 +27,7 @@ const db = await sqlite.open({
     filename: './101.db',
     driver: sqlite3.Database
 });
-
+await db.migrate()
 //call the query using await
 //create a function that returns all the greetings from the db
 async function getGreetings() {
